@@ -1,0 +1,189 @@
+/*console or "view" button styling*/
+
+
+.view {
+   width: 300px;
+   height: 200px;
+   float: left;
+   overflow: hidden;
+   position: relative;
+   text-align: left;
+   cursor: default;
+}
+.view .mask,.view .content {
+   width: 300px;
+   height: 200px;
+   position: absolute;
+   overflow: hidden;
+   top: 0;
+   left: 0;
+}
+.view img {
+   display: block;
+   position: relative;
+}
+.view h2 {
+   color: #fff;
+   text-align: left;
+   position: relative;
+   font-size: 30px;
+   font-weight: 100;
+   padding-left: 30px;
+}
+.view p {
+   font-size: 11px;
+
+   position: relative;
+   color: #fff;
+   padding-left: 30px;
+   padding-top: 10px;
+   text-align: left;
+}
+
+
+
+/*console or "view" button functionality*/
+
+
+.view img {
+   -webkit-transition: all 0.3s ease-in-out;
+   -moz-transition: all 0.3s ease-in-out;
+   -o-transition: all 0.3s ease-in-out;
+   -ms-transition: all 0.3s ease-in-out;
+   transition: all 0.3s ease-in-out;
+}
+.view .mask {
+   -webkit-transform: translateX(-300px);
+   -moz-transform: translateX(-300px);
+   -o-transform: translateX(-300px);
+   -ms-transform: translateX(-300px);
+   transform: translateX(-300px);
+   -ms-filter: "progid: DXImageTransform.Microsoft.Alpha(Opacity=100)";
+   filter: alpha(opacity=100);
+   opacity: 1;
+   -webkit-transition: all 0.3s ease-in-out;
+   -moz-transition: all 0.3s ease-in-out;
+   -o-transition: all 0.3s ease-in-out;
+   -ms-transition: all 0.3s ease-in-out;
+   transition: all 0.3s ease-in-out;
+}
+.view  h2 {
+   color: #FFF;
+   margin-bottom: 0px;
+
+}
+.view p {
+   -ms-filter: "progid: DXImageTransform.Microsoft.Alpha(Opacity=0)";
+   filter: alpha(opacity=0);
+    margin-top: 0px;
+    
+   opacity: 0;
+   color: #FFF;
+   -webkit-transition: all 0.2s linear;
+   -moz-transition: all 0.2s linear;
+   -o-transition: all 0.2s linear;
+   -ms-transition: all 0.2s linear;
+   transition: all 0.2s linear;
+}
+.view:hover .mask {
+   -webkit-transform: translateX(0px);
+   -moz-transform: translateX(0px);
+   -o-transform: translateX(0px);
+   -ms-transform: translateX(0px);
+   transform: translateX(0px);
+}
+.view:hover img {
+   -webkit-transform: translateX(300px);
+   -moz-transform: translateX(300px);
+   -o-transform: translateX(300px);
+   -ms-transform: translateX(300px);
+   transform: translateX(300px);
+}
+.view:hover p {
+   -ms-filter: "progid: DXImageTransform.Microsoft.Alpha(Opacity=100)";
+   filter: alpha(opacity=100);
+   opacity: 1;
+}
+
+
+
+
+/*console hover color background*/
+
+
+#console_organdonor  {
+       cursor: pointer;
+       background-color: #1199BA;
+
+    } 
+
+#console_coach  {
+    cursor: pointer;
+       background-color: #3584A9;
+    }
+
+#console_chameleon {
+        cursor: pointer;
+        background-color: #2DAA9F;
+    }
+
+#console_roam {
+        cursor: pointer;
+        background-color: #BF360C;
+   }
+
+#console_kaiser {
+        cursor: pointer;
+        background-color: #0097A7;
+    }
+
+#console_dav  {
+        cursor: pointer;
+     background-color: #D05A00;
+    }
+
+
+
+
+
+
+
+
+
+
+/*console text positioning*/
+
+
+
+#console_organdonor h2 {
+        padding-top: 75px;
+    } 
+
+#console_coach h2 {
+        padding-top: 75px;
+    }
+
+#console_chameleon h2{
+        padding-top: 75px;
+    }
+
+#console_roam h2{
+        padding-top: 75px;
+   }
+
+#console_kaiser h2{
+        padding-top: 75px;
+    }
+
+#console_dav h2 {
+         padding-top: 60px;
+
+    }
+
+
+
+
+
+
+
+

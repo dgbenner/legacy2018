@@ -1,0 +1,429 @@
+html {
+    background: #e6e9e9;
+}
+
+
+
+
+
+/* global clears */
+
+
+
+    html, body, div, span, applet, object, iframe,
+    h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+    a, abbr, acronym, address, big, cite, code,
+    del, dfn, em, img, ins, kbd, q, s, samp,
+    small, strike, strong, sub, sup, tt, var,
+    b, u, i, center,
+    dl, dt, dd, ol, ul, li,
+    fieldset, form, label, legend,
+    table, caption, tbody, tfoot, thead, tr, th, td,
+    article, aside, canvas, details, embed,
+    figure, figcaption, footer, header, hgroup,
+    menu, nav, output, ruby, section, summary,
+    time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    }
+
+    article, aside, details, figcaption, figure,
+    footer, header, hgroup, menu, nav, section {
+    display: block;
+    }
+    body {
+    line-height: 1;
+    }
+    ol, ul {
+    list-style: none;
+    }
+    blockquote, q {
+    quotes: none;
+    }
+    blockquote:before, blockquote:after,
+    q:before, q:after {
+    content: '';
+    content: none;
+    }
+    table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    }
+
+
+
+
+
+
+
+/* my clears */
+
+body {
+    padding: 0px;
+    margin: 0px;
+}
+
+
+a:active
+{
+outline: none;
+}
+
+a:focus
+{
+-moz-outline-style: none;
+}
+
+
+ul {
+    padding: 0px;
+    margin: 0px;
+}
+
+
+
+img
+{
+    display:block;
+    margin:0;
+}
+
+
+
+
+
+
+
+
+
+
+/*global elements*/
+
+body {
+
+    font-family: 'PT Sans', sans-serif;
+    font-size: 16px;
+    margin: 0 auto;
+    width: 100%;
+}
+
+
+p {
+    
+    margin: 0px;
+    padding: 0px;
+
+    
+}
+
+
+
+li {
+    float: left;
+    list-style: none;
+    padding-left: 80px;
+    font-size: 10px;
+    font-weight: bold; 
+}
+
+
+
+
+
+
+
+
+
+/*repeated tools or classes*/
+
+.clearfix {
+    clear: both;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+/*navigation elements*/
+
+/*navigation base*/
+
+#nav_strip {
+    width: 100%;
+    height: 225px;
+    background-color: #4FC3F7;
+}
+
+
+
+
+
+
+/*left navigation elements and positioning*/
+
+#identity_container {
+    
+    float: left;
+    padding-left: 50px;
+    padding-top: 80px; 
+    width: 200px;
+
+}
+
+
+#tagline {
+    
+    font-size: 13.6px;
+    text-decoration: none;
+    color: #FFF;
+    opacity: 0.75;
+    
+}
+
+
+/*right navigation*/
+
+#nav_container {
+    float: right;
+    position: relative;
+    padding-right: 60px;
+    padding-top: 60px;
+
+
+}
+
+#nav_container a {
+  padding: 20px;
+  border-radius: 100%;
+}
+
+
+
+#nav_container li a:hover{
+  background-color:rgba(255, 255, 255, 0.5);
+  border-radius: 100%;
+}
+
+#nav_container li a{
+  padding: 30px;
+}
+
+
+
+
+
+
+
+
+/*nav text styling*/
+
+a:link {
+    text-decoration: none;
+    color: #FFF;
+    opacity: .5;
+}
+
+a:hover {
+    text-decoration: none;
+    color: #FFF; 
+    opacity: 1;
+}
+
+
+a:active {
+    text-decoration: none;
+    color: red;  
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/*home console styling*/
+
+
+#home_console_wrapper {
+    width: 930px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: darkgray;
+    
+    
+    
+}
+
+
+
+
+
+    
+
+
+.console_client_text {
+        text-size: 30px;
+        margin-left: 20px;
+        
+}
+
+
+
+
+#console_organdonor {
+    
+    float: left;
+
+    
+    
+    
+    
+}
+
+
+
+
+
+#console_coach {
+    float: left;
+    
+}
+
+
+
+#console_chameleon {
+    float: right;
+
+   
+    
+    
+}
+
+
+#console_roam {
+    float: left;
+   
+    
+}
+
+
+#console_kaiser {
+    float: left;
+   
+    
+}
+
+
+
+
+#console_dav {
+       
+
+
+    
+}
+
+
+
+
+
+
+
+
+
+
+/*inline button general styling*/
+
+
+.inline_buttons {
+  display: inline-block;
+  margin-left: 20px;
+  padding: 5px 50px;
+  cursor: pointer;
+  font-size: 12px;   
+  line-height: 1.71429;
+  border-radius: 30px;
+  text-decoration: none;
+}
+
+.inline_buttons:hover {
+  text-decoration: none;
+  background: #3796C1;
+  color: #FFF;
+}
+
+
+
+
+
+
+/*inline about button*/
+
+#homepage_about_button {
+    margin-top: 50px;
+    background: #4FC3F7;
+    color: #FFF; 
+}
+
+
+#homepage_about_button:hover {
+  background: #3796C1;
+  color: #FFF;  
+}
+
+
+
+
+
+
+
+
+
+
+/*footer styling*/
+
+
+#footer_container_styling {
+    width: 100%;
+    height: 225px;
+    background-color: #8E8E8E;
+    margin-top: 200px;
+}
+
+
+
+#footer_name {
+    padding-left: 50px;
+    padding-top: 85px;
+    color: #fff;
+    line-height: 1.2
+  
+}
+
+#footer_address {
+    
+    
+    padding-left: 50px;
+    padding-top: 5px;
+    font-size: 10px;
+    color: #fff;
+    line-height: 1.2  
+        
+    
+    
+}
+

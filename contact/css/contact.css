@@ -1,0 +1,38 @@
+
+
+/* Overlay */
+#contact-overlay {background-color:#FFF;}
+
+/* Container 
+#contact-container {font: 12px/22px 'Trebuchet MS', Verdana, Arial; text-align:left; width:450px;}*/
+#contact-container {font: 12px/22px 'PT Sans', sans-serif; text-align:left; width:450px;
+    -webkit-box-shadow: 0px 2px 41px -3px rgba(0,0,0,0.41);
+-moz-box-shadow: 0px 2px 41px -3px rgba(0,0,0,0.41);
+box-shadow: 0px 2px 41px -3px rgba(0,0,0,0.41);
+}
+
+#contact-container .contact-content {background-color:#FFFFFF; color:#A5A5A5; height:40px; padding-top: 40px;}
+#contact-container .contact-loading {background:url(../img/contact/loading.gif) no-repeat; height:55px; margin:-14px 0 0 190px; padding:0; position:absolute; width:54px; z-index:8000;}
+#contact-container .contact-message {text-align:center;}
+#contact-container .contact-error {background:#000; border:2px solid #ccc; font-size:12px; line-height:18px; margin:0 auto; padding:2px; width:92%;}
+#contact-container br {clear:both;}
+#contact-container form {margin:0; padding:0;}
+#contact-container label {clear:left; display:block; float:left; padding-right:8px; text-align:right; width:100px;}
+#contact-container .contact-input {background:#eee; border:1px solid #f1f1f1; font-family: 'PT Sans', sans-serif; float:left; padding:2px; margin:2px; width:300px;}
+#contact-container textarea {height:114px;}
+#contact-container .contact-cc {cursor:default; font-size:12px; vertical-align:top; padding-top: 10px;}
+#contact-container .contact-top {background-color:#fff; height:13px; margin:0; padding:0; }
+#contact-container .contact-bottom {background-color:#fff; font-size:12px; height:13px; line-height:12px; text-align:center;}
+#contact-container .contact-bottom a,
+#contact-container .contact-bottom a:link,
+#contact-container .contact-bottom a:active,
+#contact-container .contact-bottom a:visited {color:#666; position:relative; top:-4px; text-decoration:none;}
+#contact-container .contact-bottom a:hover {color:#888;}
+#contact-container .contact-button {background:#42a5d1; border:0; color:#fff; cursor:pointer; font-size:10px; height:26px; margin:5px 0 0 5px; text-align:center; vertical-align:middle; border-radius: 30px;  padding: 5px 30px;
+ }
+#contact-container .contact-button:hover {background:#4fc3f7;}
+#contact-container a.modal-close,
+#contact-container a.modal-close:link,
+#contact-container a.modal-close:active,
+#contact-container a.modal-close:visited {color:#A5A5A5; font-size:18px; position:absolute; text-decoration:none; right:8px; top:10px;}
+#contact-container a.modal-close:hover {color:#ccc;}
