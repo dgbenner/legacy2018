@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="313px" height="131px" viewBox="0 0 313 131" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 42 (36781) - http://www.bohemiancoding.com/sketch -->
+    <title>dav_logo-02</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <filter x="-50%" y="-50%" width="200%" height="200%" filterUnits="objectBoundingBox" id="filter-1">
+            <feOffset dx="0" dy="0" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="6.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+    </defs>
+    <g id="Main" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Client-Page---DAV" transform="translate(-355.000000, -383.000000)" fill-rule="nonzero" fill="#FFFFFF">
+            <g id="dav_logo-02" filter="url(#filter-1)" transform="translate(368.000000, 396.000000)">
+                <g id="Layer_2">
+                    <rect id="Rectangle-path" x="0.368611374" y="0.564290323" width="39.4454976" height="103.870742"></rect>
+                    <polygon id="Shape" points="257.670912 104.43571 218.225415 104.43571 181.500296 0.564290323 220.945794 0.564290323"></polygon>
+                    <polygon id="Shape" points="45.7078104 0.564290323 45.7078104 32.403 54.3225711 32.403 54.3225711 78.0163548 45.7078104 78.0163548 45.7078104 104.43571 78.5795118 104.43571 97.8486374 84.5642903 97.8486374 20.4357097 78.437372 0.564290323"></polygon>
+                    <polygon id="Shape" points="123.068592 0.564290323 103.572995 19.983871 103.572995 104.43571 141.431152 104.43571 141.431152 0.564290323"></polygon>
+                    <polygon id="Shape" points="147.552005 0.564290323 147.552005 32.7986129 156.05319 32.7986129 156.05319 57.0163548 147.552005 57.0163548 147.552005 78.863129 156.05319 78.863129 156.05319 104.43571 194.988616 104.43571 194.988616 57.863129 173.905678 0.564290323"></polygon>
+                    <polygon id="Shape" points="241.745133 43.2986129 257.670912 0.564290323 286.631389 0.564290323 286.631389 28.7340968 261.467882 96.6453871"></polygon>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
